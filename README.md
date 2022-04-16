@@ -1,18 +1,18 @@
 ## Docker , Laravel 9 , php 8
 
-### To get started clone and cd this repository and run:
+#### To get started clone and cd on this repository and run:
 ```
 composer install
 ./vendor/bin/sail up
 ```
 
-### Then use command "docker ps" to get the image id and login with below command:
+#### Then use command "docker ps" to get the image id and login with below command:
 
 ```
 docker exec -it <image id> /bin/bash
 ```
 
-### Then run composer commands below
+#### Then run composer commands below
 
 ```
 php artisan migrate
