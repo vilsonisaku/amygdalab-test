@@ -12,7 +12,7 @@ composer install
 docker exec -it <image id> /bin/bash
 ```
 
-#### Then run composer commands below
+#### Then run commands below
 
 ```
 php artisan migrate
